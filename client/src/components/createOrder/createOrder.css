@@ -1,0 +1,25 @@
+.createOrdermiddlePart{
+    display:flex;
+    justify-content: flex-start;
+}
+.createOrdermiddlePartTableHeader{
+    background-color: black;
+    color: white;
+}
+.createOrdermiddlePartTableHeader td{
+   min-width:200px;
+   text-align: center;
+   height: 40px;
+}
+.createOrdermiddlePartButton{
+    float:right;
+    margin:0px 10px;
+    color:#5861AE;
+    border:1px solid #5861AE;
+    border-radius: 3px;
+}
+.createOrdermiddlePartButton:hover{
+    cursor: pointer;
+    background-color: #5861AE;
+    color:white;
+}
